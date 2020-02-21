@@ -1,0 +1,116 @@
+body{
+	text-align: center;
+	font-family: 'Lucida', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
+	color: #3a3a3a;
+	font-weight: 700;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+p{
+	font-size: 1.2em;
+}
+
+nav{
+	font-size: 15px;
+}
+nav button{
+	height: 34px;
+	background-color:#80CBC4;
+}
+
+.lead{
+	font-weight: 300;
+	font-family: 'Book Antiqua',serif;
+}
+
+.features p{
+	color: #06b872;
+}
+
+.features{
+	background: #0bf397;	
+}
+	
+/*-----------------HEADER--------------------*/
+
+header{
+	padding: 80px 0px 0px 0px;
+	height: 700px;
+	background: url('../img/python.png');
+	opacity: 1;
+	background-color: white!important;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+}
+
+header h1{
+	text-transform: uppercase;
+	font-weight: 700;
+	font-weight: 300;
+	font-size: 100px;
+	font-family: 'Roboto Condensed', sans-serif;
+	
+}
+
+header p.lead{
+	font-size: 22px;
+	margin: 25px 230px 0px 0px;
+	opacity: 0.6;
+	color: #F6E3C9;
+}
+
+/*----------------FEATURES-----------------------*/
+
+.features{
+	overflow: hidden;
+	padding: 50px 0px 50px 0px;
+	min-height: 300px;
+	color: black;
+	background:#030202;
+}
+
+.features p {
+	font-weight: 400;
+	color: #539b7f;
+	margin-top: 80px;
+	margin-bottom: 40px;
+}
+
+.features a{
+	color: #006064;
+}
+
+.features a:hover{
+	color:#AEEA00;
+}
+
+.features h2{
+	color: #8d6c6c;
+	text-transform: uppercase;
+	font-weight: 300;
+	font-size: 29px;
+	margin-top: -88px;
+}
+
+.features .circle{
+	box-sizing: border-box;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 33px;
+	width: 150px;
+	height: 150px;
+	border: 2px solid #ffffff;
+	border-radius: 100%;
+	text-align: center;
+	
+}
+
+/*---------------------------------------------*/
+#copyright{
+	padding-bottom: 20px;
+	color: white;
+}
